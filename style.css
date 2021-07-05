@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.name,.last_h3{
+    color: orange;
+}
+
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+.hire_me, .cv{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.flex_container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half_width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half_width img{
+    width: 80%;
+}
+.top_banner{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+.mid_banner{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.common_ex{
+    width: 40%;
+    padding: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 50px grey;
+    border-radius: 10px;
+}
+#education,#award{
+    border-left: 7px solid;
+    border-image: linear-gradient(#7b4397,#dc2430);
+    border-image-slice: 1;
+}
+
+.last_banner{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exprience{
+    padding-left: 10px;
+}
+.copyright{
+    text-align: center;
+}
+
